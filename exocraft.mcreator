@@ -7,13 +7,21 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "exostation"
+    },
+    {
+      "name": "ExostationGUI",
+      "type": "gui",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exostation_gui"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.exocraft.exostation": "Exostation"
+      "block.exocraft.exostation": "Exocraft station"
     }
   },
   "foldersRoot": {
