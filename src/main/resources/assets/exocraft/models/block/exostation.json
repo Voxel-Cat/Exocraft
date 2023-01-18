@@ -1,0 +1,9 @@
+{
+  "parent": "exocraft:custom/exostation",
+  "textures": {
+    "all": "exocraft:blocks/exostation",
+    "particle": "exocraft:blocks/exostation",
+    "0": "exocraft:blocks/exostation"
+  },
+  "render_type": "solid"
+}
