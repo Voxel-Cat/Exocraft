@@ -29,7 +29,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.exocraft.init.ExocraftModMenus;
 import net.mcreator.exocraft.init.ExocraftModItems;
 import net.mcreator.exocraft.init.ExocraftModBlocks;
 
@@ -52,8 +51,6 @@ public class ExocraftMod {
 
 		ExocraftModBlocks.REGISTRY.register(bus);
 		ExocraftModItems.REGISTRY.register(bus);
-
-		ExocraftModMenus.REGISTRY.register(bus);
 
 	}
 

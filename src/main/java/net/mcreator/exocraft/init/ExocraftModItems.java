@@ -17,7 +17,7 @@ import net.mcreator.exocraft.ExocraftMod;
 
 public class ExocraftModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ExocraftMod.MODID);
-	public static final RegistryObject<Item> EXOSTATION = block(ExocraftModBlocks.EXOSTATION, CreativeModeTab.TAB_TRANSPORTATION);
+	public static final RegistryObject<Item> EXOSTATION = block(ExocraftModBlocks.EXOSTATION, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
